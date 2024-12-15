@@ -1,14 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 *{
     font-family: "Open Sans", sans-serif;
-    margin: 0px;
 }
-.navBar{
+.navbar{
     padding: 50px 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: baseline;
 }
 .mary{
@@ -17,112 +14,113 @@
     font-size: 45px;
 }
 span{
-    color: #FD6E0A;
+    color: #FD6E0A ;
 }
 ul{
     display: flex;
     align-items: baseline;
+
 }
 ul li{
     list-style: none;
     margin-right: 50px;
-    
 }
 li a{
-    font-size: 20px;
     text-decoration: none;
     color: #474747;
+    font-size: 20px;
 }
-
-.primaryBtn{
-    border: none;
-    color: white;
+.praimary-button{
     background-color: #FD6E0A;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
     font-weight: 700;
     font-size: 20px;
-    padding: 18px 35px;
-    border-radius: 5px;
+
 }
-.baba{
+
+.father{
     display: flex;
-    justify-content: space-between;
     padding-left: 200px;
     align-items: center;
+    justify-content: space-between;
 }
 header{
-    background-color: #FFF8F3;
-    background-image: url('images/header_bg.png'),url('images/developer.png');
+    background-color: #fff8f3;
+    background-image:url('images/header_bg.png'),url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, left ;
-    
+    background-position: bottom right, left;
 }
 .hi{
+    color: #474747;
     font-weight: 600;
     font-size: 45px;
-    color: #474747;
+    margin: 0px;
 }
-.hardy{
+.name{
+    color: #181818;
     font-weight: 700;
     font-size: 85px;
-    color: #181818;
+    margin: 0px;
 }
-.dec{
-    font-size: 18px;
+.paragraph{
     color: #757575;
-    margin: 20px 0px 30px 0px;
+    font-weight: 400;
+    font-size: 18px;
 }
-.btn-outline{
-    border: 1px solid #FD6E0A;
+.contact{
+    padding: 15px 22px;
     color: #FD6E0A;
-    background-color: rgba(255, 255, 255, 0.066);
-    padding: 18px 20px;
+    border: 1px solid #FD6E0A;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
     font-weight: 700;
     font-size: 20px;
     margin-left: 30px;
-    border-radius: 5px;
-}
-
-.about{
-    /* width: 1140px;
-    height: 550px; */
-    background-color: #FFF8F3;
-    margin: 130px 200px;
-    border-radius: 10px;
-    /* padding-top: 130px;
-    padding-bottom: 130px; */
-    text-align: center;
-    padding: 130px 0px;
-}
-.aboutMe{
     
+}
+.about{
+    width: 1140px;
+    height: 350px;
+    background-color: #fff8f3;
+    margin: 130px auto;
+    border-radius: 10px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+.aboutme{
     margin: 0px 150px;
     /* border: 1px solid black; */
 }
-.fatherOfFourSon{
+.fatheroffourson{
     display: flex;
     justify-content: space-around;
 }
 .aboutMeHeading{
     font-weight: 700;
     font-size: 35px;
-    /* color: ; */
 }
-.aboutMePara{
+.paragraph2{
     font-size: 18px;
-    margin: 30px 0px;
-    color: #757575 ;
-}
-.name{
-    font-size: 20px;
     color: #757575;
 }
+.Name{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
 .bolder{
+    color: #474747;
     font-weight: 700;
     font-size: 20px;
-    color: #474747;
+    margin-top: 0px;
+    
 }
 .whatIDo{
-    margin:0px 200px;
+    margin: 0px 200px;
     text-align: center;
 }
 .whatIDoTitle{
@@ -130,73 +128,106 @@ header{
     font-size: 35px;
 }
 .whatIDoPara{
-    padding:30px 11px 50px;
+    padding: 30px 115px 50px;
     font-size: 18px;
-    color:#757575;
+    color: #757575;
 }
-.whatIDoContainer{
-    display:flex;
+.cardContainer{
+    display: flex;
     text-align: left;
 }
-.what.whatIDoContainerSon{
-    /*border:2px solid #FD6E0A; */
+.containerSon{
+    /* border: 2px solid #FD6E0A; */
     margin: 24px;
     padding: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.0.3),0 6px 20px 0 rgba(0,0, 0 ,0.0.3);
-    border-radious:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    
+    
 }
-.cardtitle{
-    margin:30px 0px 20px;
+.cardTitle{
+    margin: 30px 0px 20px;
+
 }
-.summaryExpheading{
-font-weight:700;
-font-size:30px;
-color:#474747;
-margin-bottom:30px;
+.summaryTitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.commonForEduExp{
+    display: flex;
+    margin: 0px 200px;
+  
+}
+.edu{
+    margin-right: 70px;
+}
+.summaryExpHeading{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
 }
 .commonTitle{
-    font: weight 700;
-    font-size:25px;
-    color:#474747;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+
 }
 .commonPara{
-    font-weight:600;
-    font-size:20px;
-    color:#757575;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin: 5px 0px 20px;
 }
 .commonParaSm{
-    font-size:16px;
-    color:#757575;
-    hr{
-        margin:30px 0px;
-    .DownloadBtnDiv{
-        text-align:center;
-        margin:50px 0px ;
-    }
-    .footer{
-        background-color:#FFF8F3;
-        padding:130px 200px;
-        display:flex;
-        justyfy-content:
-        space-between;
-    }
-    .footerson1{
-        width:50%;
-        margin-right:100px;
-    }
-    .footerson2{
-        width:50%
+    font-size: 16px;
+    color: #757575;
+}
+hr{
+    margin: 30px 0px;
+}
+.downloadButtonDiv{
+    text-align: center;
+    margin: 50px 0px 100px;
+}
+.footer{
+    background-color: #fff8f3;
+    padding: 130px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerSon1{
+    width: 50%;
+    margin-right: 100px;
+}
+.footerSon2{
+    width: 50%;
 
-    }
-    .footerTitle{
-        font-weight:700;
-        font-size:35px;
-    }
-    .footerPara{
-        font-size:16px;
-        color:#474747;
-        margin:20px 0px 30px;
-    }
-    twiter{
-        margin:opx 25px 0px;
-    }
+}
+.footerTitle{
+    font-weight: 700;
+    font-size: 35px;
+}
+.footerPara{
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0px 30px;
+}
+.twitter{
+    margin: 0px 25px 0px;
+}
+.textInput{
+    margin: 25px 0px;
+    border: none;
+    padding: 18px 300px 18px 30px;
+    border-radius: 5px;
+}
+.textArea{
+    margin: 25px 0px;
+    border: none;
+    padding: 18px 300px 130px 30px;
+    border-radius: 5px;
+}
